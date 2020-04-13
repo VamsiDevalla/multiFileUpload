@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Upload files POC</title>
+	<script type="text/javascript">
+		document.addEventListener('DOMContentLoaded', (event) => {
+			
+		})
+	</script>
+</head>
+<body>
+	<p>Select more than one file when browsing for files.</p>
+	<form action="/upload/files" enctype="multipart/form-data" method="post">
+ 		<input type="file" id="files" name="files" multiple><br><br>
+ 		<input id="submit" type="submit">
+	</form>
+</body>
+</html>
